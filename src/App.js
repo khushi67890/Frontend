@@ -4,8 +4,8 @@ import ListUserComponent from './components/ListUserComponent';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 import HeaderComponent from './components/HeaderComponent';
 import CreateUserComponent from './components/CreateUserComponent';
-import ViewUserComponent from './components/ViewUserComponent'
-import UpdateUserComponent from './components/UpdateUserComponent'
+import ViewUserComponent from './components/ViewUserComponent';
+import UpdateUserComponent from './components/UpdateUserComponent';
 function App() {
   return (
     <div className="App">

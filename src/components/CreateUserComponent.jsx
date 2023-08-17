@@ -61,7 +61,7 @@ class CreateUserComponent extends Component {
   }
 
   componentDidMount() {
-    if (this.getSnapshotBeforeUpdate.id === "_add") {
+    if (this.state.id === "_add") {
       return;
     } else {
       UserService.getUserById(this.state.id).then((res) => {

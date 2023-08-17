@@ -47,7 +47,7 @@ class ListUserComponent extends Component {
       <div>
         <h2 className="text-center">Users List</h2>
         <div className="row">
-          <button onClick={this.addUser} classNmae="btn btn-primary">
+          <button onClick={this.addUser} className="btn btn-primary">
             Add User
           </button>
         </div>
